@@ -1,6 +1,10 @@
 #! /usr/bin/env racket
 #lang racket
 
+;;;; To Run:
+;;;; chmod a+x tinywm.rkt
+;;;; ./tinywm.rkt
+
 (require x11/x11)
 
 (define display (XOpenDisplay #f))
